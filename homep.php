@@ -3,7 +3,7 @@
 
 session_start();
 //koneksi ke database
-  $koneksi= new mysqli("localhost","root","","ylnj-project");
+  $koneksi= new mysqli("localhost","root","","medical_db");
 
   ?> 
 

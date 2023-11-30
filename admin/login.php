@@ -1,7 +1,7 @@
 ﻿<?php
 session_start();
 //Skrip Koneksi
- $koneksi = new mysqli("localhost","root","","ylnj-project");
+ $koneksi = new mysqli("localhost","root","","medical_db");
 ?>
 
 <!DOCTYPE html>
@@ -9,7 +9,7 @@ session_start();
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ylnj-project</title>
+    <title>medical_db</title>
 	<!-- BOOTSTRAP STYLES-->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
      <!-- FONTAWESOME STYLES-->
@@ -25,7 +25,7 @@ session_start();
         <div class="row text-center ">
             <div class="col-md-12">
                 <br /><br />
-                <h2> YLNJ-PROJECT : Login</h2>
+                <h2> medical_db : Login</h2>
                
                 <h5>( Login yourself to get access )</h5>
                  <br />

@@ -2,14 +2,14 @@
 
 session_start();
 //koneksi ke database
-  $koneksi= new mysqli("localhost","root","hasanitki","medical_db");
+  $koneksi= new mysqli("localhost","root","","medical_db");
 
   ?>
 
 <!DOCTYPE html>
 <html>
 <head>
-	<title>YLNJ-Branded </title>
+	<title>Medical</title>
 	<link rel="stylesheet" href="admin/assets/css/bootstrap.css">
 </head>
 <body>

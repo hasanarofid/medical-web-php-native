@@ -1,5 +1,5 @@
 <?php session_start()?>
-<?php $koneksi= new mysqli("localhost","root","","ylnj-project");?>
+<?php $koneksi= new mysqli("localhost","root","","medical_db");?>
 <?php
 $id_produk = $_GET["id"];
 $ambil=$koneksi->query("SELECT * FROM produk WHERE id_produk='$id_produk'");

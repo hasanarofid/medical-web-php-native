@@ -4,7 +4,7 @@ session_start();
 
 
 
-$koneksi = new mysqli("localhost","root","","ylnj-project");
+$koneksi = new mysqli("localhost","root","","medical_db");
 
 if(empty($_SESSION["keranjang"]) OR !isset($_SESSION["keranjang"]))
 {

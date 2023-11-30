@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.3
+-- version 5.1.3
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: May 17, 2019 at 01:12 PM
--- Server version: 10.1.36-MariaDB
--- PHP Version: 7.2.11
+-- Host: localhost
+-- Generation Time: Nov 30, 2023 at 04:29 PM
+-- Server version: 10.4.21-MariaDB
+-- PHP Version: 7.4.28
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -40,7 +39,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id_admin`, `username`, `password`, `nama_lengkap`) VALUES
-(1, 'medical_db', 'yasril98', 'ylnj-toko');
+(1, 'ylnj-project', 'yasril98', 'ylnj-toko');
 
 -- --------------------------------------------------------
 

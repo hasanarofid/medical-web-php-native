@@ -1,6 +1,6 @@
 <?php
 session_start();
-$koneksi= new mysqli("localhost","root","","ylnj-project");
+$koneksi= new mysqli("localhost","root","","medical_db");
 
 if(!isset($_SESSION["pelanggan"]))
 {
