@@ -8,7 +8,7 @@
   
   .home .overlap-group-wrapper {
     background-color: #ffffff;
-    width: 1440px;
+    width: 100%;
     height: 1024px;
   }
   
@@ -22,7 +22,7 @@
   
   .home .overlap {
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 143px;
     top: 0;
     left: 0;

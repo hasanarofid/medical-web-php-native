@@ -25,14 +25,8 @@
             <div class="text-wrapper-7">Elektromedik Non Radiasi</div>
           </div>
 
-          <div class="text-wrapper-8">HOME</div>
-          <div class="text-wrapper-9">ABOUT US</div>
-          <div class="text-wrapper-10">PRODUCT</div>
-          <div class="overlap-4">
-            <div class="text-wrapper-11">CATEGORY</div>
-            <img class="line" src="assets/figma_ui/images/line-3.svg" />
-            <img class="line-2" src="assets/figma_ui/images/line-4.svg" />
-          </div>
+          <?php include 'menu_atas.php'; ?>
+
 
           <div class="overlap-5">
             <img class="rectangle-2" src="assets/figma_ui/images/rectangle-2.png" />
