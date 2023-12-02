@@ -1,0 +1,558 @@
+.register {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.register .overlap-group-wrapper {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 1024px;
+}
+
+.register .overlap-group {
+  position: relative;
+  width: 1461px;
+  height: 1029px;
+  left: -14px;
+}
+
+.register .bg-medical {
+  position: absolute;
+  width: 1440px;
+  height: 1024px;
+  top: 0;
+  left: 14px;
+  object-fit: cover;
+}
+
+.register .rectangle {
+  position: absolute;
+  width: 1440px;
+  height: 143px;
+  top: 0;
+  left: 14px;
+  background-color: #61c1eb;
+}
+
+.register .text-wrapper {
+  width: 149px;
+  top: 70px;
+  left: 1280px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 25px;
+  text-decoration: underline;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.register .div {
+  width: 40px;
+  top: 70px;
+  left: 1265px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 25px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.register .text-wrapper-2 {
+  width: 89px;
+  top: 70px;
+  left: 1182px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 25px;
+  text-decoration: underline;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.register .logotrial-removebg {
+  position: absolute;
+  width: 159px;
+  height: 140px;
+  top: 3px;
+  left: 14px;
+  object-fit: cover;
+}
+
+.register .text-wrapper-3 {
+  position: absolute;
+  width: 320px;
+  top: 48px;
+  left: 566px;
+  font-family: "Lilita One", Helvetica;
+  font-weight: 400;
+  color: #07547f;
+  font-size: 60px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.register .line {
+  width: 885px;
+  top: 336px;
+  left: 284px;
+  position: absolute;
+  height: 2px;
+}
+
+.register .rectangle-2 {
+  position: absolute;
+  width: 776px;
+  height: 758px;
+  top: 171px;
+  left: 323px;
+  background-color: #fffffff2;
+  border-radius: 43px;
+}
+
+.register .text-wrapper-4 {
+  position: absolute;
+  width: 285px;
+  height: 23px;
+  top: 879px;
+  left: 508px;
+  font-family: "Lilita One", Helvetica;
+  font-weight: 400;
+  color: #00000080;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.register .text-wrapper-5 {
+  width: 87px;
+  height: 23px;
+  top: 879px;
+  left: 749px;
+  font-family: "Lilita One", Helvetica;
+  font-weight: 400;
+  color: #00000080;
+  font-size: 20px;
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.register .rectangle-3 {
+  position: absolute;
+  width: 665px;
+  height: 54px;
+  top: 351px;
+  left: 379px;
+  background-color: #d4edf999;
+  border-radius: 10px;
+}
+
+.register .rectangle-4 {
+  position: absolute;
+  width: 665px;
+  height: 54px;
+  top: 442px;
+  left: 379px;
+  background-color: #d4edf999;
+  border-radius: 10px;
+}
+
+.register .rectangle-5 {
+  position: absolute;
+  width: 665px;
+  height: 54px;
+  top: 604px;
+  left: 379px;
+  background-color: #d4edf999;
+  border-radius: 10px;
+}
+
+.register .rectangle-6 {
+  position: absolute;
+  width: 665px;
+  height: 54px;
+  top: 699px;
+  left: 379px;
+  background-color: #d4edf999;
+  border-radius: 10px;
+}
+
+.register .img {
+  width: 776px;
+  top: 294px;
+  left: 323px;
+  position: absolute;
+  height: 2px;
+}
+
+.register .rectangle-7 {
+  position: absolute;
+  width: 129px;
+  height: 25px;
+  top: 534px;
+  left: 379px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.register .rectangle-8 {
+  position: absolute;
+  width: 27px;
+  height: 24px;
+  top: 771px;
+  left: 381px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.register .i-agree-with-the {
+  position: absolute;
+  top: 771px;
+  left: 420px;
+  font-family: "Lilita One", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.register .span {
+  font-family: "Lilita One", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+}
+
+.register .text-wrapper-6 {
+  text-decoration: underline;
+}
+
+.register .text-wrapper-7 {
+  top: 459px;
+  left: 398px;
+  position: absolute;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: #aeaeae;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.register .text-wrapper-8 {
+  top: 371px;
+  left: 399px;
+  position: absolute;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: #aeaeae;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.register .text-wrapper-9 {
+  top: 618px;
+  left: 394px;
+  position: absolute;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: #aeaeae;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.register .text-wrapper-10 {
+  position: absolute;
+  top: 715px;
+  left: 394px;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: #aeaeae;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.register .text-wrapper-11 {
+  position: absolute;
+  top: 538px;
+  left: 388px;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.register .text-wrapper-12 {
+  top: 323px;
+  left: 364px;
+  font-family: "VCR OSD Mono-Regular", Helvetica;
+  font-weight: 400;
+  color: #ff0000;
+  font-size: 20px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.register .text-wrapper-13 {
+  top: 409px;
+  left: 364px;
+  font-family: "VCR OSD Mono-Regular", Helvetica;
+  font-weight: 400;
+  color: #ff0000;
+  font-size: 20px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.register .text-wrapper-14 {
+  top: 503px;
+  left: 364px;
+  font-family: "VCR OSD Mono-Regular", Helvetica;
+  font-weight: 400;
+  color: #ff0000;
+  font-size: 20px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.register .text-wrapper-15 {
+  top: 567px;
+  left: 364px;
+  font-family: "VCR OSD Mono-Regular", Helvetica;
+  font-weight: 400;
+  color: #ff0000;
+  font-size: 20px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.register .text-wrapper-16 {
+  top: 663px;
+  left: 364px;
+  font-family: "VCR OSD Mono-Regular", Helvetica;
+  font-weight: 400;
+  color: #ff0000;
+  font-size: 20px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.register .text-wrapper-17 {
+  width: 14px;
+  top: 535px;
+  left: 486px;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.register .text-wrapper-18 {
+  width: 181px;
+  top: 213px;
+  left: 618px;
+  font-family: "Lilita One", Helvetica;
+  font-weight: 400;
+  color: #07547f;
+  font-size: 40px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.register .text-wrapper-19 {
+  position: absolute;
+  width: 155px;
+  height: 20px;
+  top: 323px;
+  left: 336px;
+  font-family: "Lilita One", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.register .text-wrapper-20 {
+  position: absolute;
+  width: 155px;
+  height: 20px;
+  top: 413px;
+  left: 353px;
+  font-family: "Lilita One", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.register .text-wrapper-21 {
+  position: absolute;
+  width: 155px;
+  height: 20px;
+  top: 506px;
+  left: 336px;
+  font-family: "Lilita One", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.register .text-wrapper-22 {
+  position: absolute;
+  width: 155px;
+  height: 20px;
+  top: 572px;
+  left: 352px;
+  font-family: "Lilita One", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.register .text-wrapper-23 {
+  position: absolute;
+  width: 212px;
+  height: 20px;
+  top: 666px;
+  left: 369px;
+  font-family: "Lilita One", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.register .rectangle-9 {
+  position: absolute;
+  width: 119px;
+  height: 49px;
+  top: 822px;
+  left: 652px;
+  background-color: #07547f;
+  border-radius: 3px;
+}
+
+.register .text-wrapper-24 {
+  position: absolute;
+  width: 77px;
+  top: 832px;
+  left: 691px;
+  font-family: "Lilita One", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.register .rectangle-10 {
+  position: absolute;
+  width: 1461px;
+  height: 87px;
+  top: 942px;
+  left: 0;
+  background-color: #61c1eb;
+  border-radius: 10px;
+}
+
+.register .text-wrapper-25 {
+  position: absolute;
+  top: 993px;
+  left: 628px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.register .download-removebg {
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  top: 958px;
+  left: 742px;
+  object-fit: cover;
+}
+
+.register .download-removebg-2 {
+  position: absolute;
+  width: 30px;
+  height: 32px;
+  top: 956px;
+  left: 700px;
+  object-fit: cover;
+}
+
+.register .icon-media-social {
+  position: absolute;
+  width: 27px;
+  height: 28px;
+  top: 959px;
+  left: 659px;
+  object-fit: cover;
+}

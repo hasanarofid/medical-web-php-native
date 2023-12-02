@@ -1,0 +1,279 @@
+.about-us-blm-login {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.about-us-blm-login .overlap-group-wrapper {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 1024px;
+}
+
+.about-us-blm-login .overlap-group {
+  position: relative;
+  width: 1461px;
+  height: 1029px;
+  left: -14px;
+}
+
+.about-us-blm-login .bg-medical {
+  position: absolute;
+  width: 1440px;
+  height: 1024px;
+  top: 0;
+  left: 14px;
+  object-fit: cover;
+}
+
+.about-us-blm-login .rectangle {
+  position: absolute;
+  width: 1440px;
+  height: 143px;
+  top: 0;
+  left: 14px;
+  background-color: #61c1eb;
+}
+
+.about-us-blm-login .text-wrapper {
+  position: absolute;
+  width: 149px;
+  top: 70px;
+  left: 1280px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.about-us-blm-login .div {
+  position: absolute;
+  width: 40px;
+  top: 70px;
+  left: 1265px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-us-blm-login .LOGIN {
+  position: absolute;
+  width: 86px;
+  top: 70px;
+  left: 1180px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-us-blm-login .span {
+  text-decoration: underline;
+}
+
+.about-us-blm-login .text-wrapper-2 {
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+}
+
+.about-us-blm-login .rectangle-2 {
+  position: absolute;
+  width: 1341px;
+  height: 711px;
+  top: 205px;
+  left: 63px;
+  background-color: #ffffff;
+  border-radius: 44px;
+  border: 1px solid;
+  border-color: #009cdf;
+}
+
+.about-us-blm-login .rectangle-3 {
+  position: absolute;
+  width: 1461px;
+  height: 87px;
+  top: 942px;
+  left: 0;
+  background-color: #61c1eb;
+  border-radius: 10px;
+}
+
+.about-us-blm-login .line {
+  position: absolute;
+  width: 1341px;
+  height: 2px;
+  top: 342px;
+  left: 63px;
+}
+
+.about-us-blm-login .logotrial-removebg {
+  position: absolute;
+  width: 159px;
+  height: 140px;
+  top: 3px;
+  left: 14px;
+  object-fit: cover;
+}
+
+.about-us-blm-login .text-wrapper-3 {
+  position: absolute;
+  width: 320px;
+  top: 48px;
+  left: 566px;
+  font-family: "Lilita One", Helvetica;
+  font-weight: 400;
+  color: #07547f;
+  font-size: 60px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-us-blm-login .text-wrapper-4 {
+  position: absolute;
+  width: 445px;
+  top: 256px;
+  left: 628px;
+  font-family: "Lilita One", Helvetica;
+  font-weight: 400;
+  color: #07547f;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-us-blm-login .download-removebg {
+  position: absolute;
+  width: 30px;
+  height: 32px;
+  top: 956px;
+  left: 700px;
+  object-fit: cover;
+}
+
+.about-us-blm-login .icon-media-social {
+  position: absolute;
+  width: 27px;
+  height: 28px;
+  top: 959px;
+  left: 659px;
+  object-fit: cover;
+}
+
+.about-us-blm-login .img {
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  top: 958px;
+  left: 742px;
+  object-fit: cover;
+}
+
+.about-us-blm-login .text-wrapper-5 {
+  position: absolute;
+  top: 993px;
+  left: 628px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.about-us-blm-login .medical-didirikan {
+  position: absolute;
+  width: 1249px;
+  top: 381px;
+  left: 114px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-us-blm-login .text-wrapper-6 {
+  position: absolute;
+  width: 96px;
+  top: 158px;
+  left: 46px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-us-blm-login .text-wrapper-7 {
+  position: absolute;
+  width: 150px;
+  top: 158px;
+  left: 163px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-us-blm-login .text-wrapper-8 {
+  position: absolute;
+  width: 150px;
+  top: 158px;
+  left: 336px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-us-blm-login .text-wrapper-9 {
+  position: absolute;
+  width: 175px;
+  top: 158px;
+  left: 498px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-us-blm-login .line-2 {
+  position: absolute;
+  width: 14px;
+  height: 15px;
+  top: 167px;
+  left: 644px;
+  object-fit: cover;
+}
+
+.about-us-blm-login .line-3 {
+  position: absolute;
+  width: 14px;
+  height: 15px;
+  top: 168px;
+  left: 657px;
+  object-fit: cover;
+}
