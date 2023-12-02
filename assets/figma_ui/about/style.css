@@ -1,4 +1,4 @@
-.about-us-blm-login {
+.home {
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
@@ -6,21 +6,21 @@
   width: 100%;
 }
 
-.about-us-blm-login .overlap-group-wrapper {
+.home .overlap-group-wrapper {
   background-color: #ffffff;
   overflow: hidden;
   width: 1440px;
   height: 1024px;
 }
 
-.about-us-blm-login .overlap-group {
+.home .overlap-group {
   position: relative;
   width: 1461px;
   height: 1029px;
   left: -14px;
 }
 
-.about-us-blm-login .bg-medical {
+.home .bg-medical {
   position: absolute;
   width: 1440px;
   height: 1024px;
@@ -29,7 +29,7 @@
   object-fit: cover;
 }
 
-.about-us-blm-login .rectangle {
+.home .rectangle {
   position: absolute;
   width: 1440px;
   height: 143px;
@@ -38,7 +38,7 @@
   background-color: #61c1eb;
 }
 
-.about-us-blm-login .text-wrapper {
+.home .text-wrapper {
   position: absolute;
   width: 149px;
   top: 70px;
@@ -52,7 +52,7 @@
   text-decoration: underline;
 }
 
-.about-us-blm-login .div {
+.home .div {
   position: absolute;
   width: 40px;
   top: 70px;
@@ -65,7 +65,7 @@
   line-height: normal;
 }
 
-.about-us-blm-login .LOGIN {
+.home .LOGIN {
   position: absolute;
   width: 86px;
   top: 70px;
@@ -78,11 +78,11 @@
   line-height: normal;
 }
 
-.about-us-blm-login .span {
+.home .span {
   text-decoration: underline;
 }
 
-.about-us-blm-login .text-wrapper-2 {
+.home .text-wrapper-2 {
   font-family: "Inter", Helvetica;
   font-weight: 700;
   color: #ffffff;
@@ -90,7 +90,7 @@
   letter-spacing: 0;
 }
 
-.about-us-blm-login .rectangle-2 {
+.home .rectangle-2 {
   position: absolute;
   width: 1341px;
   height: 711px;
@@ -102,7 +102,7 @@
   border-color: #009cdf;
 }
 
-.about-us-blm-login .rectangle-3 {
+.home .rectangle-3 {
   position: absolute;
   width: 1461px;
   height: 87px;
@@ -112,7 +112,7 @@
   border-radius: 10px;
 }
 
-.about-us-blm-login .line {
+.home .line {
   position: absolute;
   width: 1341px;
   height: 2px;
@@ -120,7 +120,7 @@
   left: 63px;
 }
 
-.about-us-blm-login .logotrial-removebg {
+.home .logotrial-removebg {
   position: absolute;
   width: 159px;
   height: 140px;
@@ -129,7 +129,7 @@
   object-fit: cover;
 }
 
-.about-us-blm-login .text-wrapper-3 {
+.home .text-wrapper-3 {
   position: absolute;
   width: 320px;
   top: 48px;
@@ -142,7 +142,7 @@
   line-height: normal;
 }
 
-.about-us-blm-login .text-wrapper-4 {
+.home .text-wrapper-4 {
   position: absolute;
   width: 445px;
   top: 256px;
@@ -155,7 +155,7 @@
   line-height: normal;
 }
 
-.about-us-blm-login .download-removebg {
+.home .download-removebg {
   position: absolute;
   width: 30px;
   height: 32px;
@@ -164,7 +164,7 @@
   object-fit: cover;
 }
 
-.about-us-blm-login .icon-media-social {
+.home .icon-media-social {
   position: absolute;
   width: 27px;
   height: 28px;
@@ -173,7 +173,7 @@
   object-fit: cover;
 }
 
-.about-us-blm-login .img {
+.home .img {
   position: absolute;
   width: 31px;
   height: 31px;
@@ -182,7 +182,7 @@
   object-fit: cover;
 }
 
-.about-us-blm-login .text-wrapper-5 {
+.home .text-wrapper-5 {
   position: absolute;
   top: 993px;
   left: 628px;
@@ -195,7 +195,7 @@
   white-space: nowrap;
 }
 
-.about-us-blm-login .medical-didirikan {
+.home .medical-didirikan {
   position: absolute;
   width: 1249px;
   top: 381px;
@@ -208,7 +208,7 @@
   line-height: normal;
 }
 
-.about-us-blm-login .text-wrapper-6 {
+.home .text-wrapper-6 {
   position: absolute;
   width: 96px;
   top: 158px;
@@ -221,7 +221,7 @@
   line-height: normal;
 }
 
-.about-us-blm-login .text-wrapper-7 {
+.home .text-wrapper-7 {
   position: absolute;
   width: 150px;
   top: 158px;
@@ -234,7 +234,7 @@
   line-height: normal;
 }
 
-.about-us-blm-login .text-wrapper-8 {
+.home .text-wrapper-8 {
   position: absolute;
   width: 150px;
   top: 158px;
@@ -247,7 +247,7 @@
   line-height: normal;
 }
 
-.about-us-blm-login .text-wrapper-9 {
+.home .text-wrapper-9 {
   position: absolute;
   width: 175px;
   top: 158px;
@@ -260,7 +260,7 @@
   line-height: normal;
 }
 
-.about-us-blm-login .line-2 {
+.home .line-2 {
   position: absolute;
   width: 14px;
   height: 15px;
@@ -269,7 +269,7 @@
   object-fit: cover;
 }
 
-.about-us-blm-login .line-3 {
+.home .line-3 {
   position: absolute;
   width: 14px;
   height: 15px;

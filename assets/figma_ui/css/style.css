@@ -159,7 +159,18 @@
     height: 177px;
     object-fit: cover;
   }
-  
+  .home .medical-didirikan {
+    position: absolute;
+    width: 1249px;
+    top: 381px;
+    left: 114px;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
   .home .div-wrapper {
     position: absolute;
     width: 432px;

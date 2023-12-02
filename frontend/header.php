@@ -7,3 +7,4 @@
             <img class="logotrial-removebg" src="../assets/figma_ui/images/logotrial-removebg-preview-1.png" />
             <div class="text-wrapper-4">MEDICAL +</div>
 </div>
+
