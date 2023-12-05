@@ -1,2 +1,2 @@
-<h2>Semangat Bekerja Admin Passion.Cloth</h2>
+<h2>Semangat Bekerja Admin MEDICAL +</h2>
 

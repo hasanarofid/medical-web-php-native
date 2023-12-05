@@ -17,11 +17,12 @@ if(!isset($_SESSION['admin']))
 <head>
       <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Passion.cloth</title>
+    <title>ADMIN MEDICAL +</title>
 
              <link href="assets/css/bootstrap.css" rel="stylesheet" />
-    
-             <link href="assets/css/font-awesome.css" rel="stylesheet" />
+             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-r4Hr8oV0Rtq57Vj8Jb5s8+jyXsboYuFU6b5UqkKK4IZ6ZiPPgKdbmi53POlMBME" crossorigin="anonymous">
+
+             <!-- <link href="assets/css/font-awesome.css" rel="stylesheet" /> -->
    
              <link href="assets/js/morris/morris-0.4.3.min.css" rel="stylesheet" />
        
@@ -39,7 +40,7 @@ if(!isset($_SESSION['admin']))
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php">Passion.Cloth</a> 
+                <a class="navbar-brand" href="index.php">MEDICAL +</a> 
             </div>
   <div style="color: white;
 padding: 15px 50px 5px 50px;
@@ -51,12 +52,13 @@ font-size: 16px;"> &nbsp; <a href="index.php?halaman=logout" class="btn btn-dang
             <div class="sidebar-collapse">
                 <ul class="nav" id="main-menu">
 				<li class="text-center">
-                   <img src="assets/img/logo5.jpg" class="user-image img-responsive"/>
+                   <img src="../assets/figma_ui/images/logotrial-removebg-preview-1.png" class="user-image img-responsive"/>
 					</li> 
 				
 					
                     <li><a  href="index.php"><i class="fa fa-dashboard fa-3x"></i> Home</a></li>
-                    <li><a  href="index.php?halaman=produk"><i class="fa fa-dashboard fa-3x"></i> Produk</a></li>
+                    <li><a  href="index.php?halaman=category"><i class="fa fa fa-product-hunt fa-3x"></i> Category</a></li>
+                    <li><a  href="index.php?halaman=produk"><i class="fa fa fa-product-hunt fa-3x"></i> Produk</a></li>
                     <li><a  href="index.php?halaman=pembelian"><i class="fa fa-dashboard fa-3x"></i> Pembelian</a></li>
                     <li><a  href="index.php?halaman=pelanggan"><i class="fa fa-dashboard fa-3x"></i> Pelanggan</a></li>
                     <li><a  href="index.php?halaman=logout"><i class="fa fa-dashboard fa-3x"></i> Logout</a></li></ul>
@@ -73,6 +75,10 @@ font-size: 16px;"> &nbsp; <a href="index.php?halaman=logout" class="btn btn-dang
                     if ($_GET['halaman']=="produk")
                     {
                         include 'produk.php';
+                    }
+                    if ($_GET['halaman']=="category")
+                    {
+                        include 'category.php';
                     }
                     elseif ($_GET['halaman']=="pembelian")
                     {
@@ -94,6 +100,10 @@ font-size: 16px;"> &nbsp; <a href="index.php?halaman=logout" class="btn btn-dang
                     elseif ($_GET['halaman']=="tambahproduk") 
                     {
                         include 'tambahproduk.php';
+                    }
+                    elseif ($_GET['halaman']=="tambahcategory") 
+                    {
+                        include 'tambahcategory.php';
                     }
                     elseif ($_GET['halaman']=="hapusproduk") 
                     {

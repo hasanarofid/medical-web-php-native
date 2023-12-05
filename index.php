@@ -5,13 +5,43 @@
 	<title>Medical</title>
 	<link rel="stylesheet" href="assets/figma_ui/css/globals.css" />
     <link rel="stylesheet" href="assets/figma_ui/css/style.css" />
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-r4Hr8oV0Rtq57Vj8Jb5s8+jyXsboYuFU6b5UqkKK4IZ6ZiPPgKdbmi53POlMBME" crossorigin="anonymous">
+
+             <!-- <link href="assets/css/font-awesome.css" rel="stylesheet" /> -->
+   
+             <link href="assets/js/morris/morris-0.4.3.min.css" rel="stylesheet" />
+       
+             <link href="assets/css/custom.css" rel="stylesheet" />
+     
+             <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 </head>
 <body>
 <?php include 'koneksi.php'; ?>
+<?php
+ $kategori=$koneksi->query("SELECT * FROM category");
+//  var_dump($kategori);die;
+
+?>
 <div class="home">
       <div class="overlap-group-wrapper">
         <div class="overlap-group">
 		<?php include 'header.php'; ?>
+    <div class="row bg-light p-4"> <!-- Add Bootstrap classes for background and padding -->
+    <?php
+    while ($row = $kategori->fetch_assoc()) {
+        echo '<div class="col-md-4 text-center mb-4">'; // Add column classes for responsiveness
+        echo '<div class="card">';
+        echo '<img src="../assets/gambar_category/' . $row['gambar'] . '" alt="' . $row['name'] . '" class="card-img-top rounded-circle" style="width: 100px; height: 100px; object-fit: cover;">';
+        echo '<div class="card-body">';
+        echo '<p class="card-text mt-2">' . $row['name'] . '</p>';
+        echo '</div>';
+        echo '</div>';
+        echo '</div>';
+    }
+    ?>
+</div>
+
  
           <div class="overlap-2">
             <img class="rectangle" src="assets/figma_ui/images/rectangle-3.png" />
