@@ -59,6 +59,7 @@ font-size: 16px;"> &nbsp; <a href="index.php?halaman=logout" class="btn btn-dang
                     <li><a  href="index.php"><i class="fa fa-dashboard fa-3x"></i> Home</a></li>
                     <li><a  href="index.php?halaman=category"><i class="fa fa fa-product-hunt fa-3x"></i> Category</a></li>
                     <li><a  href="index.php?halaman=produk"><i class="fa fa fa-product-hunt fa-3x"></i> Produk</a></li>
+                    <li><a  href="index.php?halaman=slider"><i class="fa fa fa-product-hunt fa-3x"></i> Slider</a></li>
                     <li><a  href="index.php?halaman=pembelian"><i class="fa fa-dashboard fa-3x"></i> Pembelian</a></li>
                     <li><a  href="index.php?halaman=pelanggan"><i class="fa fa-dashboard fa-3x"></i> Pelanggan</a></li>
                     <li><a  href="index.php?halaman=logout"><i class="fa fa-dashboard fa-3x"></i> Logout</a></li></ul>
@@ -79,6 +80,10 @@ font-size: 16px;"> &nbsp; <a href="index.php?halaman=logout" class="btn btn-dang
                     if ($_GET['halaman']=="category")
                     {
                         include 'category.php';
+                    }
+                    if ($_GET['halaman']=="slider")
+                    {
+                        include 'slider.php';
                     }
                     elseif ($_GET['halaman']=="pembelian")
                     {
@@ -101,6 +106,11 @@ font-size: 16px;"> &nbsp; <a href="index.php?halaman=logout" class="btn btn-dang
                     {
                         include 'tambahproduk.php';
                     }
+
+                    elseif ($_GET['halaman']=="tambahslider") 
+                    {
+                        include 'tambahslider.php';
+                    }
                     elseif ($_GET['halaman']=="tambahcategory") 
                     {
                         include 'tambahcategory.php';
@@ -112,6 +122,10 @@ font-size: 16px;"> &nbsp; <a href="index.php?halaman=logout" class="btn btn-dang
                     elseif ($_GET['halaman']=="ubahproduk") 
                     {
                         include 'ubahproduk.php';
+                    }
+                    elseif ($_GET['halaman']=="ubahslider") 
+                    {
+                        include 'ubahslider.php';
                     }
                     elseif ($_GET['halaman']=="logout") 
                     {

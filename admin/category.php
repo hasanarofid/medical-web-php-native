@@ -5,7 +5,9 @@
 		<tr>
 			<th>no</th>
 			<th>nama</th>
+			<th>Gambar</th>
 			<th>status</th>
+			<th>Aktion</th>
 		</tr>
 	</thead>
 	<tbody>

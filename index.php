@@ -116,29 +116,25 @@
                   </li>
 
                   <li class="menu-item">
+                    
                     <a href="javascript:void(0)" class="menu-link menu-toggle">
                       <i class="menu-icon tf-icons ti ti-smart-home"></i>
                       <div data-i18n="CATEGORY">CATEGORY</div>
                     </a>
                     <ul class="menu-sub">
-                      <li class="menu-item active">
+                    <?php $ambil=$koneksi->query("SELECT * FROM category"); ?>
+                    <?php while($pecah = $ambil->fetch_assoc()){
+                  ?>
+                     <li class="menu-item active">
                         <a href="index.html" class="menu-link">
                           <i class="menu-icon tf-icons ti ti-chart-pie-2"></i>
-                          <div data-i18n="Analytics">Analytics</div>
-                        </a>
+                      <div data-i18n="<?= $pecah['name'] ?>"><?= $pecah['name'] ?></div>
+                      </a>
                       </li>
-                      <li class="menu-item">
-                        <a href="dashboards-crm.html" class="menu-link">
-                          <i class="menu-icon tf-icons ti ti-3d-cube-sphere"></i>
-                          <div data-i18n="CRM">CRM</div>
-                        </a>
-                      </li>
-                      <li class="menu-item">
-                        <a href="dashboards-ecommerce.html" class="menu-link">
-                          <i class="menu-icon tf-icons ti ti-atom-2"></i>
-                          <div data-i18n="eCommerce">eCommerce</div>
-                        </a>
-                      </li>
+
+
+                    <?php } ?>
+
                     </ul>
                   </li>
 
@@ -152,21 +148,17 @@
                   <div id="swiper-gallery">
                     <div class="swiper gallery-top">
                       <div class="swiper-wrapper">
-                        <div class="swiper-slide" style="background-image: url(assets/theme/assets/img/backgrounds/2.jpg)">
-                          Slide 1
+                      <?php $slider=$koneksi->query("SELECT * FROM slider"); ?>
+                    <?php while($slidernya = $slider->fetch_assoc()){
+                  ?>
+                 
+                      <div class="swiper-slide" style="background-image: url(assets/slider/<?= $slidernya['gambar'] ?>)">
+                          <?= $slidernya['deskripsi'] ?>
                         </div>
-                        <div class="swiper-slide" style="background-image: url(assets/theme/assets/img/backgrounds/1.jpg)">
-                          Slide 2
-                        </div>
-                        <div class="swiper-slide" style="background-image: url(assets/theme/assets/img/backgrounds/3.jpg)">
-                          Slide 3
-                        </div>
-                        <div class="swiper-slide" style="background-image: url(assets/theme/assets/img/backgrounds/4.jpg)">
-                          Slide 4
-                        </div>
-                        <div class="swiper-slide" style="background-image: url(assets/theme/assets/img/backgrounds/6.jpg)">
-                          Slide 5
-                        </div>
+
+                    <?php } ?>
+
+                        
                       </div>
                       <!-- Add Arrows -->
                       <div class="swiper-button-next swiper-button-black"></div>
