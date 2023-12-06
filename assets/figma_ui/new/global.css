@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-lilita-one: "Lilita One";
+
+  /* font sizes */
+  --font-size-11xl: 30px;
+  --font-size-6xl: 25px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-aliceblue: #eff9ff;
+}

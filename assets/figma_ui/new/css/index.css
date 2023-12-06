@@ -1,0 +1,234 @@
+.bg-medical-1,
+.home-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bg-medical-1 {
+  width: 1455px;
+  height: 1024px;
+  object-fit: cover;
+}
+.home-child {
+  background-color: #61c1eb;
+  width: 1440px;
+  height: 143px;
+}
+.home-inner,
+.home-item,
+.rectangle-icon {
+  position: absolute;
+  top: 604px;
+  left: 30px;
+  width: 432px;
+  height: 192px;
+  object-fit: cover;
+}
+.home-inner,
+.rectangle-icon {
+  left: 507px;
+}
+.rectangle-icon {
+  left: 992px;
+}
+.login1 {
+  text-decoration: underline;
+}
+.b,
+.home1,
+.login,
+.register {
+  position: absolute;
+  top: 71px;
+  display: inline-block;
+}
+.login {
+  left: 1166px;
+  width: 86px;
+  height: 45px;
+  cursor: pointer;
+}
+.b,
+.home1,
+.register {
+  height: 34px;
+}
+.register {
+  left: 1266px;
+  text-decoration: underline;
+  width: 149px;
+  cursor: pointer;
+}
+.b,
+.home1 {
+  left: 1251px;
+  width: 40px;
+}
+.home1 {
+  top: 159px;
+  left: 32px;
+  width: 96px;
+  height: 41px;
+}
+.about-us {
+  left: 149px;
+  width: 150px;
+  cursor: pointer;
+}
+.about-us,
+.category,
+.product {
+  position: absolute;
+  top: 159px;
+  display: inline-block;
+  height: 41px;
+}
+.product {
+  left: 322px;
+  width: 150px;
+  cursor: pointer;
+}
+.category {
+  left: 484px;
+  width: 175px;
+}
+.logotrial-removebg-preview-1-icon {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 174px;
+  height: 140px;
+  object-fit: cover;
+}
+.medical {
+  position: absolute;
+  top: 49px;
+  left: 552px;
+  font-size: 60px;
+  font-family: var(--font-lilita-one);
+  color: #085480;
+  display: inline-block;
+  width: 320px;
+  height: 85px;
+}
+.home-child1 {
+  position: absolute;
+  top: 216px;
+  left: 30px;
+  width: 1385px;
+  height: 352px;
+  object-fit: cover;
+}
+.cee476fb5745f1f02d59b8d9c9-rem-icon,
+.cee476fb5745f1f02d59b8d9c9-rem-icon1 {
+  position: absolute;
+  top: 341px;
+  left: 1322px;
+  width: 92px;
+  height: 103px;
+  object-fit: cover;
+}
+.cee476fb5745f1f02d59b8d9c9-rem-icon1 {
+  left: 25px;
+  width: 103px;
+}
+.diagnostic-in-vitro,
+.elektromedik-non-radiasi,
+.elektromedik-radiasi {
+  position: absolute;
+  font-size: var(--font-size-11xl);
+  display: inline-block;
+}
+.diagnostic-in-vitro {
+  top: 685px;
+  left: 108px;
+  color: var(--color-aliceblue);
+  width: 399px;
+  height: 152px;
+  -webkit-text-stroke: 1px rgba(29, 139, 205, 0.5);
+}
+.elektromedik-non-radiasi,
+.elektromedik-radiasi {
+  text-align: center;
+  -webkit-text-stroke: 1px #1d8bcd;
+}
+.elektromedik-radiasi {
+  top: 685px;
+  left: 546px;
+  color: var(--color-aliceblue);
+  width: 387px;
+  height: 67px;
+}
+.elektromedik-non-radiasi {
+  top: 690px;
+  left: 1017px;
+  color: #f3f7fa;
+  width: 382px;
+  height: 114px;
+}
+.home-child2,
+.home-child3,
+.line-icon {
+  position: absolute;
+  top: 168px;
+  left: 643px;
+  width: 13.75px;
+  height: 15.32px;
+}
+.home-child2,
+.home-child3 {
+  top: 167.34px;
+  left: 630px;
+}
+.home-child3 {
+  top: 832px;
+  left: 30px;
+  width: 181px;
+  height: 177px;
+  object-fit: cover;
+}
+.image-1-icon,
+.image-4-icon,
+.image-5-icon,
+.image-7-icon,
+.image-8-icon {
+  position: absolute;
+  top: 832px;
+  left: 252px;
+  width: 210px;
+  height: 177px;
+  object-fit: cover;
+}
+.image-4-icon,
+.image-5-icon,
+.image-7-icon,
+.image-8-icon {
+  left: 507px;
+  width: 195px;
+}
+.image-5-icon,
+.image-7-icon,
+.image-8-icon {
+  left: 747px;
+  width: 198px;
+}
+.image-7-icon,
+.image-8-icon {
+  left: 982px;
+  width: 190px;
+}
+.image-8-icon {
+  left: 1198px;
+  width: 201px;
+}
+.home {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

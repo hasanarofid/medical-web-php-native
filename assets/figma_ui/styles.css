@@ -1,0 +1,63 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url('images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    min-height: 100%; /* Ensure the body takes at least the full height of the viewport */
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-image: url('images/logo.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    /* padding: 0px 0; */
+    text-align: center; /* Center the text within the header */
+}
+
+.container {
+    flex: 1; /* Make the container expand to fill the remaining space */
+    padding: 20px;
+}
+
+.login-register {
+    display: flex;
+    align-items: center;
+}
+
+.login-register a {
+    margin-right: 10px;
+    color: #fff;
+}
+
+.navbar {
+    background-color: #61c1eb;
+}
+
+.navbar-brand {
+    margin-right: 0;
+}
+
+.medical {
+    font-size: 60px;
+    font-weight: bold;
+    color: #085480;
+}
+
+.logotrial-removebg-preview-1-icon {
+    width: 174px;
+    height: 140px;
+    object-fit: cover;
+}
+
+a {
+    color: white;
+    font-size: 20px;
+}
